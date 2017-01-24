@@ -2,3 +2,123 @@ Sean Mathew
 ./class-assignments/classwork-tues-1-24-17.txt
 ./class-assignments/classwork-thurs-1-19-17.txt
 ./class-assignments/classwork-tues-1-17-17
+  802  tail -n +2 my-comma-file.fasta | cut -s -d ',' -f 3 | cut -d '=' -f 2 | sort -n
+  803  grep '3330' my-comma-file.fasta 
+  804  mkdir temp
+  805  cd ../data
+  806  ls
+  807  cd Saavedra2013/
+  808  ls
+  809  for txtfile in *.txt; do echo $txtfile; done
+  810  for txtfile in *.txt; do echo $txtfile; cp $txtfile ../../sandbox/temp/edited-$txtfile; done
+  811  find . -name *.txt
+  812  find ./ -name '.txt'
+  813  find ./ -name '*.txt'
+  814  find ./ -name *.txt
+  815  find ./ -name 7.txt
+  816  find ./ -name '57'
+  817  find ./ -name n57.txt
+  818  find ./ -name *57.txt
+  819  find ./ -name 57.txt
+  820  cd ../../../../homework/
+  821  git status
+  822  git add week-2-homework-eeb177.txt 
+  823  git commit -m "adding homework"
+  824  git push
+  825  cd Desktop/eeb-177/class-assignments/
+  826  ls
+  827  gedit classwork-tues-1-24-17.txt
+  828  cd ..
+  829  cd CSB/unix/sandbox/
+  830  wget http://tinyrul.com/cep-taxa -O cep-taxa.txt
+  831  cd../..
+  832  cd ../..
+  833  cd ..
+  834  cd class-assignments/
+  835  git status
+  836  git add classwork-tues-1-24-17.txt 
+  837  git commit -m "adding classwork file"
+  838  git push
+  839  cd ../CSB/unix/sandbox/
+  840  ls
+  841  gedit cep-taxa.txt 
+  842  head cep-taxa.txt 
+  843  less cep-taxa.txt 
+  844  wget http://tinyrul.com/cep-taxa -O cep-taxa.txt
+  845  less cep-taxa.txt 
+  846  grep Orchidacea cep-taxa.txt
+  847  less cep-taxa.txt 
+  848  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  849  grep Orchidacea cep-taxa.txt
+  850  grep Orchidacea -l cep-taxa.txt
+  851  grep -l Orchidaceae cep-taxa.txt 
+  852  grep -c Orchidaceae cep-taxa.txt 
+  853  grep falcon cep-taxa.txt 
+  854  grep Orchid cep-taxa.txt 
+  855  grep Falcon cep-taxa.txt 
+  856  grep -i falcon
+  857  grep -i falcon cep-taxa.txt 
+  858  grep -i ara cep-taxa.txt 
+  859  man grep
+  860  grep -i -n ara cep-taxa.txt 
+  861  grep -n -w  Ara cep-taxa.txt 
+  862  head cep-taxa.txt 
+  863  grep -B 3 Cebus cep-taxa.txt 
+  864  grep -B 4 Cebus cep-taxa.txt 
+  865  grep -B 6 Cebus cep-taxa.txt 
+  866  grep -n iguana cep-taxa.txt 
+  867  grep -n -i -w iguana cep-taxa.txt 
+  868  grep -v -c ara
+  869  grep -v -c ara cep-taxa.txt 
+  870  grep -v -c -n ara cep-taxa.txt 
+  871  grep -v -n ara cep-taxa.txt 
+  872  grep -v -n -i -w ara cep-taxa.txt >> non-ara.txt
+  873  ls
+  874  mv non-ara.txt non-macaws.txt
+  875  ls
+  876  find .*
+  877  ls -a
+  878  ls temp
+  879  find .
+  880  find ../data/
+  881  find /home/eeb177-student/Desktop/eeb-177/CSB/unix/data
+  882  ls -r ../data
+  883  find ../data | wc -l
+  884  find ../data/ | wc -l
+  885  find ../data/ -name "n30.txt"
+  886  find ../data/ -name n30.txt
+  887  find -name "n30.txt" ../data
+  888  find ../data -name "30.txt"
+  889  find /home/eeb177-student/Desktop/ -name "30.txt"
+  890  find /home/eeb177-student/Desktop/ -name "n30.txt"
+  891  find /home/eeb177-student/Desktop/ -name "*30.txt"
+  892  find /home/eeb177-student/Desktop/ -name n30.txt
+  893  find /home/eeb177-student/Desktop/ -name *30.txt
+  894  find ../ -iname "*about*"
+  895  find ../ -name "*about*"
+  896  cd ../..
+  897  cd ..
+  898  find ./ -iname "*classwork*"
+  899  find ./ -iname "*classwork*" >> ./class-assignments/classwork-tues-1-24-17.txt 
+  900  gedit ./class-assignments/classwork-tues-1-24-17.txt 
+  901  find ./ -iname "classwork*"
+  902  find ./ -iname classwork*
+  903  find ../ -iname classwork*
+  904  head class-assignments/classwork-tues-1-24-17.txt 
+  905  cd CSB/unix/sandbox/
+  906  find ../data -maxdepth 1 -name *.txt
+  907  find ../data -maxdepth 1 -name "*.txt"
+  908  cd ~/Desktop/eeb-177/class-assignments/
+  909  git add classwork-tues-1-24-17.txt 
+  910  git commit -m "adding appended classwork"
+  911  git push
+  912  cd ../CSB/unix/sandbox/
+  913  touch permissions.txt
+  914  ls -l
+  915  chmod u=rwx permissions.txt 
+  916  ls -l
+  917  chmod g+x permissions.txt 
+  918  ls -l
+  919  history
+  920  history 120
+  921  history 120 >> ../../../class-assignments/classwork-tues-1-24-17.txt 
