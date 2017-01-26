@@ -1,0 +1,150 @@
+  902  find ./ -iname classwork*
+  903  find ../ -iname classwork*
+  904  head class-assignments/classwork-tues-1-24-17.txt 
+  905  cd CSB/unix/sandbox/
+  906  find ../data -maxdepth 1 -name *.txt
+  907  find ../data -maxdepth 1 -name "*.txt"
+  908  cd ~/Desktop/eeb-177/class-assignments/
+  909  git add classwork-tues-1-24-17.txt 
+  910  git commit -m "adding appended classwork"
+  911  git push
+  912  cd ../CSB/unix/sandbox/
+  913  touch permissions.txt
+  914  ls -l
+  915  chmod u=rwx permissions.txt 
+  916  ls -l
+  917  chmod g+x permissions.txt 
+  918  ls -l
+  919  history
+  920  history 120
+  921  history 120 >> ../../../class-assignments/classwork-tues-1-24-17.txt 
+  922  cd ../../../class-assignments/
+  923  gedit classwork-tues-1-24-17.txt 
+  924  git add classwork-tues-1-24-17.txt 
+  925  git commit -m "adding command history"
+  926  git push
+  927  ls
+  928  cd Desktop/eeb-177/lab-work/exercise-3
+  929  ls
+  930  cd Desktop/eeb-177/lab-work/
+  931  git add exercise-3/
+  932  git commit -m "adding exercise 3 repository"
+  933  git push
+  934  python
+  935  cd Desktop/eeb-177/lab-work/
+  936  mkdir exercise-3
+  937  ls
+  938  cd exercise-3
+  939  ls
+  940  jupyter notebook
+  941  ls
+  942  git status
+  943  cd Desktop/eeb-177/class-assignments/
+  944  gedit classwork-thursday-1-26-17.txt
+  945  git add classwork-thursday-1-26-17.txt 
+  946  git commit -m "adding classwork file"
+  947  git push
+  948  ls -l
+  949  ls
+  950  touch permissions.txt
+  951  ls -l
+  952  find ~/ -name "permissions.txt"
+  953  chmod u=rwx permissions.txt 
+  954  ls -l
+  955  chmod u-x permissions.txt 
+  956  ls -l
+  957  chmod u=r
+  958  chmod u=r--
+  959  ls -l
+  960  gedit 
+  961  dir.sh
+  962  ls/usr/bin
+  963  ls usr/bin
+  964  ls /usr/bin
+  965  ls /bin
+  966  $path
+  967  $PATH
+  968  man $PATH
+  969  cd
+  970  pwd
+  971  mkdir scripts
+  972  ls
+  973  cd scripts
+  974  ls
+  975  mv ../Desktop/eeb-177/class-assignments/dir.sh .
+  976  ls
+  977  ls ../Desktop/eeb-177/class-assignments/
+  978  ls
+  979  ls -l
+  980  cd
+  981  ls
+  982  ls -a
+  983  gedit .bash_profile
+  984  ls -a
+  985  $PATH
+  986  ls -a
+  987  $PATH
+  988  dir.sh
+  989  cd scripts/
+  990  ls -a
+  991  ls -l
+  992  chmod u=rwx dir.sh 
+  993  ls -l
+  994  gedit dir.sh
+  995  cd Desktop
+  996  cd ..
+  997  dir.sh
+  998  $PATH
+  999  cd
+ 1000  ls
+ 1001  ls -a
+ 1002  gedit .profile
+ 1003  $PATH
+ 1004  sudo reboot
+ 1005  $PATH
+ 1006  dir.sh
+ 1007  cd Desktop/
+ 1008  dir.sh
+ 1009  cd eeb-177/
+ 1010  dir.sh
+ 1011  cd ../../scripts/
+ 1012  gedit in_class_script.sh
+ 1013  ls -l
+ 1014  chmod u+x in_class_script.sh 
+ 1015  ls -l
+ 1016  cd ../Desktop/eeb-177/class-assignments/
+ 1017  in_class_script.sh 
+ 1018  cd ../Desktop/eeb-177/
+ 1019  cd ../lab-work/
+ 1020  in_class_script.sh 
+ 1021  ls
+ 1022  exercise-3
+ 1023  cd exercise-3
+ 1024  ls
+ 1025  git add -all
+ 1026  git add --all
+ 1027  git commit -m "adding all python scripts from lab work"
+ 1028  git push
+ 1029  cd ../../..
+ 1030  cd ..
+ 1031  cd scripts
+ 1032  git init
+ 1033  git remote add origin https://github.com/seanmathew95/scripts.git
+ 1034  git push -u origin master
+ 1035  git remote add origin https://github.com/seanmathew95/scripts.git
+ 1036  git push -u origin master
+ 1037  git status
+ 1038  git add dir.sh
+ 1039  git commit -m "adding dir.sh"
+ 1040  git push
+ 1041  git push --set-upstream origin master
+ 1042  git add in_class_script.sh 
+ 1043  git commit -m "adding inclassscript"
+ 1044  git push
+ 1045  cd
+ 1046  ipython
+ 1047  cd Desktop/eeb-177/class-assignments/
+ 1048  ls
+ 1049  history
+ 1050  history 150
+ 1051  history 150 >> classwork-thurs-1-26-17.txt
