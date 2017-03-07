@@ -1,0 +1,62 @@
+---
+title: "classwork-tues-3-7-17"
+author: "Sean Mathew"
+date: "March 7, 2017"
+output: html_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+data(graptPBDB)
+occSpecies <- taxonSortPBDBocc(graptOccPBDB, rank="species")
+plotOccData(occSpecies,groupLabel = "Species")
+```
+
+
+
+
+
+
+
+
+
+```{r}
+#convert to time list format
+graptTimeSpecies <- occData2timeList(occList = occSpecies)
+#plot
+taxicDivDisc(graptTimeSpecies)
+
+
+
+```
+
+
+
+
+```{r}
+```
+
+```{r}
+```
+
+
+```{r}
+```
+
+```{r}
+```
+
+
+```{r}
+```
+
+```{r}
+```
+
+
+
+
+
+
+
